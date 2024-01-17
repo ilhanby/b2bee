@@ -1,0 +1,50 @@
+body {
+    background-color: #fff
+}
+
+#auth {
+    height: 100vh;
+    overflow-x: hidden
+}
+
+#auth #auth-right {
+    height: 100%;
+    background: url(../../images/bg/4853433.jpg), linear-gradient(90deg, #2d499d, #3f5491)
+}
+
+#auth #auth-left {
+    padding: 1rem 4rem
+}
+
+#auth #auth-left .auth-title {
+    font-size: 3rem;
+    margin: 2rem
+}
+
+#auth #auth-left .auth-subtitle {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #a8aebb
+}
+
+#auth #auth-left .auth-logo {
+    text-align: center;
+}
+
+#auth #auth-left .auth-logo img {
+    height: 60%;
+    width: 60%;
+    margin: 60px 0;
+}
+
+@media screen and (max-width: 767px) {
+    #auth #auth-left {
+        padding: 2rem
+    }
+
+    #auth #auth-left .auth-logo img {
+        height: 80%;
+        width: 80%;
+    }
+}
